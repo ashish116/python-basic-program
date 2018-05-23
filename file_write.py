@@ -1,0 +1,8 @@
+print("program to write on file")
+text=input("enter text to be written on file")
+file=open("test1.txt","w")
+file.write(text)
+file.close()
+print("\n contents of file are \n")
+file=open("test1.txt","r")
+print (file.read())
